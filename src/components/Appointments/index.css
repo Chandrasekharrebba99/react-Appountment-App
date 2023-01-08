@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 25px;
+}
+.inputcard {
+  display: flex;
+  flex-direction: column;
+  margin: 60px;
+}
+.topbg {
+  background-image: linear-gradient(to bottom right, #fbc7d4, #8b5cf6);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+button {
+  background-color: #8b5cf6;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+  color: #ffffff;
+}
+.cardtop {
+  display: flex;
+}
+.hr {
+  height: 2px;
+  background-color: black;
+  width: 100%;
+}
+.allappointments {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inarow {
+  display: flex;
+  flex-wrap: wrap;
+}
